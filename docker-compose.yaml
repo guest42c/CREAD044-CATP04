@@ -1,0 +1,18 @@
+services:
+  app:
+    image: node:24-alpine
+    # Maps to -p 5173:5173
+    ports:
+      - "5173:5173"
+    # Maps to -v .:/usr/src/app
+    volumes:
+      - .:/usr/src/app
+    # Sets the working directory so you land in the right spot
+    working_dir: /usr/src/app
+    # Maps to --entrypoint sh
+    entrypoint: /bin/sh
+    # Maps to -it (keeps the session open and interactive)
+    stdin_open: true
+    tty: true
+    environment:
+      - HOST=0.0.0.0 # Ensures accessibility

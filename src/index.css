@@ -1,0 +1,7 @@
+.nav-link {
+  color: orange;
+}
+.nav-link.highlighted {
+  color: #61dafb;
+  background-color: rgb(70, 45, 0);
+}
