@@ -163,7 +163,7 @@ export default function Conteudo() {
                 onMouseLeave={() => setHover(false)}
               >
                 <img
-                  src="/tabuleiro-jogo.png"
+                  src="tabuleiro-jogo.png"
                   class="img-fluid"
                   alt="{txtAlt}"
                 />
