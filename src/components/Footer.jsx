@@ -57,6 +57,7 @@ export default function Footer(props) {
             <p class="small mb-0 text-white-50">
               &copy; {props.data} <strong>{props.nome}</strong>.
             </p>
+            <p>Deploy realizado em: <a href="https://guest42c.github.io/CREAD044-CATP04/">https://guest42c.github.io/CREAD044-CATP04/</a></p>
           </div>
         </div>
       </div>
